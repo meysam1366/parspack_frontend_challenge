@@ -23,8 +23,8 @@ const Register = (props) => {
                 console.log(response)
             })
             .catch(err => {
-                console.log(password,passwordConfirm)
-                console.log(err.status)
+                alert(err.message)
+                console.log(err)
             })
     }
 

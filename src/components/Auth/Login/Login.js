@@ -20,13 +20,11 @@ const Login = (props) => {
             })
             .catch(err => {
                 console.log(err)
+                alert(err)
             })
     }
 
     return <>
-        {
-            console.log(localStorage.getItem('token'))
-        }
         {
             localStorage.getItem('token') != null ? window.location.href = '/user/panel' : ''
         }

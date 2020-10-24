@@ -1,5 +1,6 @@
 {
   "name": "parspack-frontend",
+  "homepage":"http://171.22.25.125",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
